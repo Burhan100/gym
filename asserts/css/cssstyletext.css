@@ -1,0 +1,284 @@
+body{
+
+  background-image: url("../Images/download.webp");
+  background-position: center;
+  background-size:cover  ;
+  min-height: 100vh;
+  width: 100%;
+}
+
+div.hero-text{
+
+  border-radius: 10px;
+
+  backdrop-filter: blur(5px);
+  border: #f2f2f2;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+
+h1{ 
+ 
+    color:rgb(248, 242, 242);
+    padding: 16px;
+    text-align: center;
+    display: block;
+    font-size: 65PX;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 5px;
+    
+  
+   
+ 
+}
+P {
+    color:white;
+    text-align: center;
+    display: block;
+    font-size: 20PX;
+   
+}
+  
+
+  
+  .hero-text {
+    
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+div.topnav{
+   backdrop-filter: blur(10px);
+    width: 95%;
+
+    border-radius: 5px;
+   align-content: center;
+   margin-left: 50px;
+   margin-top: 50px;
+   border-color: white;
+   border-style: solid;
+   border-width: 1px;
+   overflow: hidden;
+
+
+
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #eef3f1;
+    color: rgb(13, 13, 13);
+  }
+
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.hero-image{
+
+   margin-top: 20px;
+
+}
+
+
+ 
+  
+  
+ 
+ .header {
+  background-image: url("../Images/gym.gym.jpg");
+ 
+  color: aliceblue;
+  font: icon;
+  font-weight: 500;
+  background-color:NONE;
+
+  text-align: center;
+  font-size: 30px;
+  border: SOLID;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+   margin-right: 13px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin-top: 600px;
+  
+}
+.column {
+  float:left;
+  margin-left: 45px;
+  width: 30%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  .btn{
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 1000;
+    width:100% ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 150px;
+    font-size: medium;
+    cursor: pointer;
+  
+
+
+  }
+
+
+
+
+
+  .popup{
+    width: 800px;
+    
+
+    background-color: black;
+    backdrop-filter: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0);
+    text-align:left;
+    padding: 0 30px 30px;
+    columns: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+    border-style: double;
+  }
+
+  .open-popup{
+    visibility: visible;
+     transform:translate(-50%,-50%) scale(1);
+     top: 50%
+  }
+
+
+  .popup.h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px,0,10px;
+  }
+  .popup.btn{
+    cursor:pointer ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
+  
+  .popup2{
+    width: 800px;
+    
+
+    background-color: black;
+    backdrop-filter: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0);
+    text-align: left;
+    padding: 0 30px 30px;
+    columns: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+    border-style: double;
+  }
+
+  .open-popup2{
+    visibility: visible;
+     transform:translate(-50%,-50%) scale(1);
+     top: 90%
+  }
+
+
+  .popup2.h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px,0,10px;
+  }
+  .popup2.btn{
+    cursor:pointer ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
+  
+  .popup3{
+    width: 800px;
+    
+
+    background-color: black;
+    backdrop-filter: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0);
+    text-align: left;
+    padding: 0 30px 30px;
+    columns: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+    border-style: double;
+  }
+
+  .open-popup3{
+    visibility: visible;
+     transform:translate(-50%,-50%) scale(1);
+     top: 90%
+  }
+
+
+  .popup3.h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px,0,10px;
+  }
+  .popup3.btn{
+    cursor:pointer ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
+ 
